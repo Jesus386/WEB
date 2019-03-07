@@ -1,0 +1,148 @@
+ *{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body {
+	background:#eae8e8;
+}
+
+header, .main, footer{
+	width:100%;
+	max-width:1200px;
+	margin:auto;
+}
+header nav{
+	background-color:#500975;
+	overflow: hidden;
+	border-radius: 6px;
+}
+/*menu*/
+ul{
+	list-style: none;
+}
+.menu{
+	border-radius: 9px;
+}
+.menu li a{
+	background-color: #500975;
+color: #fff;
+text-decoration: none;
+padding: 10px 20px;
+display:block;
+font-size: 16px;
+}
+.menu li a:hover{
+	background: #7509AD;
+	border-radius: 9px;
+}
+.menu > li{
+	float: left;
+}
+.menu li ul{
+	display:none;
+	position: absolute;
+}
+.menu li:hover > ul{
+	display: block;
+}
+/*iconos de navegacion*/
+.nav .face{
+	float: left;
+	padding: 10px;
+	font-size: 16px;
+	color: #ECC9F9;
+}
+.nav .face:hover{
+	background: #7509AD;
+	border-radius: 9px;
+}
+.nav .insta{
+	float: left;
+	padding: 10px;
+	font-size: 16px;
+	color: #ECC9F9;
+}
+.nav .insta:hover{
+	background: #7509AD;
+	border-radius: 9px;
+}
+.menu .puntos{
+	float: left;
+	margin-right: 10px;
+}
+.menu .flecha{
+	float: right;
+	margin-left: 10px;
+}
+.menu .video{
+	float: right;
+	margin-left: 10px;
+	font-size: 10px;
+}
+.menu .musica{
+	float: right;
+	margin-left: 10px;
+	font-size: 10px;
+}
+.menu .ojo{
+	float: left;
+	margin-right: 10px;
+}
+.menu .globe{
+	float: left;
+	margin-right: 10px;
+}
+.menu .inicio{
+	background: #7509AD;
+	border-radius: 9px;
+}
+.menu .biblia{
+	float: left;
+	margin-right: 10px;
+}
+.menu .nota{
+	float: right;
+	margin-left: 10px;
+	font-size: 10px;
+}
+/*portada*/
+.container-portada{
+	width: 100%;
+	height: 150px;
+	background-image: url(../IMAGENES/que.jpg);
+	background-size: 200%;
+	animation: movimiento 40s infinite linear alternate;
+}
+@keyframes movimiento{
+	from{
+		background-position: bottom left;	
+	}
+	to{
+		background-position: top right;
+	}
+}
+.container-detales{
+	width: 100%;
+	max-width: 1000px;
+	position: relative;
+	margin:auto;
+}
+/*logo*/
+.detail{
+	width:100%;
+	max-width: 100px;
+	position: relative;
+	top: 30px;
+	margin-left: 20px;
+}
+img[src="IMAGENES/BETANIA.jpg"]{
+	border-radius: 50%;
+}
+footer{
+	background: #2E0345;
+	color:#fff;
+	clear:both;
+	padding: 10px 0px;
+	text-align: center;
+}

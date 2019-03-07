@@ -1,0 +1,53 @@
+ *{
+  margin:0;
+  padding:0;
+}
+body {
+	background:#eae8e8;
+}
+
+header, .main, footer{
+	width:100%;
+	max-width:1200px;
+	margin:auto;
+}
+header nav{
+	background-color:#500975;
+	overflow: hidden;
+	border-radius: 6px;
+}
+form{
+	background: #D6D0D7;
+	width: 360px;
+	border: 1px solid #4e4d4d;
+	border-radius: 3px;
+	box-shadow: inset 0 0 10px #000;
+	margin: 50px auto;
+}
+form h2{
+	text-align: center;
+	color: #fff;
+	font-size: 40pt;
+	margin: 30px 0px;
+}
+form input{
+	width: 280px;
+	height: 35px;
+	padding: 0px 10px;
+	color:#6d6d6d;
+	text-align: center;
+	margin: 10px 40px;
+}
+form button{
+	width: 135px;
+	margin: 20px 0px 30px 30px;
+	height: 50px;
+	background:#500975;
+	color: #fff;
+	border: 1px solid #6D067C;
+	box-shadow: 0px 2px 0px #32043E;
+	border-radius: 3px;
+}
+form button:hover{
+	background: #7509AD;
+}
